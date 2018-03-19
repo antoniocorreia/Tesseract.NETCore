@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesseract.NETCore.FileUpload", "Tesseract.NETCore.FileUpload\Tesseract.NETCore.FileUpload.csproj", "{C85E9C74-A8FE-41BD-8108-E412384CFF8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tesseract.NetCore", "Tesseract\Tesseract.NetCore.csproj", "{460D352C-0168-4251-8B59-205D2CB7F98E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C85E9C74-A8FE-41BD-8108-E412384CFF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85E9C74-A8FE-41BD-8108-E412384CFF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85E9C74-A8FE-41BD-8108-E412384CFF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85E9C74-A8FE-41BD-8108-E412384CFF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460D352C-0168-4251-8B59-205D2CB7F98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460D352C-0168-4251-8B59-205D2CB7F98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460D352C-0168-4251-8B59-205D2CB7F98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460D352C-0168-4251-8B59-205D2CB7F98E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5D6CC00-FC18-48C2-938B-EDDE2E7E2797}
+	EndGlobalSection
+EndGlobal

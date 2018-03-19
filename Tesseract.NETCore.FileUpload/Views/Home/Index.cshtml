@@ -1,0 +1,13 @@
+﻿@model Tesseract.NETCore.FileUpload.Models.Home.IndexViewModel
+<form asp-controller="Home" asp-action="ProcessFile" method="post"
+      enctype="multipart/form-data">
+
+    <input type="file" name="file" />
+    <button type="submit">Test File</button>
+</form>
+
+@if (Model != null)
+{
+    <p><b>Mean Confidence:</b> @Model.MeanConfidence</p>
+    <p><b>Text:</b> @Model.Text</p>
+}
